@@ -330,4 +330,7 @@ body.addEventListener("keyup", function (e) {
     else if (e.key == "ArrowLeft") {
         backward();
     }
+    else if (e.key == "f"){
+        handleFullScreen();
+    }
 })
